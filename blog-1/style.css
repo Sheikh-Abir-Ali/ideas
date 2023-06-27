@@ -1,0 +1,80 @@
+body {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.grid .f-3 div{
+    height: 300px;
+    width: 400px;
+    border: 6px solid black;
+}
+
+.grid .f-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid .f-3 .box-f1 {
+    background-color: #99c9ef;
+}
+
+.grid .f-3 .box-f2 {
+    background-color: #99c9ef;
+}
+
+.grid .f-3 .box-f3 {
+    background-color: #99c9ef;
+}
+
+.grid .f-3 div:hover {
+    z-index: 1;
+}
+/* 2nd */
+
+.grid .f-2-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: -100px 290px;
+}
+
+.grid .f-2-2 div {
+    height: 300px;
+    width: 400px;
+    border: 6px solid black;
+}
+
+.grid .f-2-2 .box-f2-1 {
+    background-color: #99c9ef;
+}
+
+.grid .f-2-2 .box-f2-2 {
+    background-color: #99c9ef;
+}
+
+/* 3rd */
+
+.grid .f-3-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -100px;
+}
+
+.grid .f-3-3 div {
+    height: 300px;
+    width: 400px;
+    border: 6px solid black;
+}
+
+.grid .f-3-3 .box-f3-1 {
+    background-color: #99c9ef;
+}
+
+.grid .f-3-3 .box-f3-2 {
+    background-color: #99c9ef;
+    z-index: -1;
+}
+
+
+.grid .f-3-3 .box-f3-3 {
+    background-color: #99c9ef;
+}
